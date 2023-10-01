@@ -1,0 +1,19 @@
+.optionButtonsContainer {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+}
+
+.buttonContainerRow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.iconContainer {
+  width: fit-content;
+  background-color: #ffffff70;
+  border-radius: 1.5vh;
+  padding-left:1vw;
+  padding-right:1vw;
+  filter: drop-shadow(2px 2px 2px #00000060);
+}

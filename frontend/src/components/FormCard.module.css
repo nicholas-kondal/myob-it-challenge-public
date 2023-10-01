@@ -1,0 +1,42 @@
+.formCard {
+  background-color: white;
+  margin: 2vh 2vw 2vh 1vw;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 1vw;
+  width: 30vw;
+  height: 25vw;
+  flex-basis: auto;
+  filter: drop-shadow(4px 4px 4px #00000060);
+}
+
+.labelValue {
+  display: flex;
+  line-height: 1vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 450;
+}
+
+.label {
+  width: 40%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+  align-self: center;
+}
+
+.value {
+  width: 60%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 450;
+}

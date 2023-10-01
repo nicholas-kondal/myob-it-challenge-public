@@ -1,0 +1,10 @@
+.formsContainer {
+  height: 80vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  overflow: auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 20px;
+}

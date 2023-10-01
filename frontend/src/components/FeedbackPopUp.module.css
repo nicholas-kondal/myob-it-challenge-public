@@ -1,0 +1,53 @@
+.popUp {
+  text-align: left;
+  padding: 1vw;
+  background-color: #fff;
+  width: 100%;
+  max-height: 70vh;
+  max-width: 60vw;
+  position: absolute;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 1vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+}
+
+.textContainer {
+  max-height: 45vh;
+  overflow-y: auto;
+}
+
+.text {
+  text-align: left;
+  margin-left: 2vw;
+  margin-bottom: 2vh;
+}
+
+.header {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+  text-decoration: underline;
+}
+
+.closeContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.labelValue {
+  display: flex;
+  line-height: 4.5vh;
+}
+
+.label {
+  width: 30vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+  align-self: center;
+}
+
+.value {
+  width: 70vh;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}

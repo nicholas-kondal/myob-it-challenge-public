@@ -1,0 +1,36 @@
+.sideBarContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: 000000;
+}
+
+.list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+.tab:hover {
+  cursor: pointer;
+  outline-style: solid;
+  outline-color: #00000010;
+}
+
+.a {
+  color: #000000;
+  margin-left: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.4vw;
+  line-height: 7vh;
+  text-decoration: none;
+}
+
+.logo {
+  display: block; /* to centre*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  filter: drop-shadow(4px 4px 4px #00000060);
+}

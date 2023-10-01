@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+
+    <!-- Optional theme -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+</head>
+
+<body>
+    <div style="width: 100%; max-width: 780px;">
+        <div style="padding:10% ; background-image:linear-gradient(to bottom right, #315bf9, #3bfaee75)">
+            <div style="background-color: #fff; border-radius: 2vw; padding-top: 3vw; padding-left: 5vw; padding-right: 5vw; padding-bottom: 1vw; font-family: Quicksand, Tahoma;  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);">
+                <span style="text-align: center; font-size: 22px; font-weight: 400; font-family: Quicksand, Tahoma;">Thank you! - from Trust Us Plumbing Technicians</span>
+                <br></br>
+                <p style="text-align: left; font-size: 14px; font-weight: 400; font-family: Quicksand, Tahoma;"> Dear Nicholas, </p>
+                <p style="text-align: left; font-size: 14px; font-weight: 400; font-family: Quicksand, Tahoma;">Thank you for choosing our products and services. We would love to hear about your thoughts and
+                    feedback!
+                </p>
+                <p style="text-align: left; font-size: 14px; font-weight: 400; font-family: Quicksand, Tahoma;"> Please fill in the response form below. We appreciate your time, and hope to see you again soon. </p>
+                <div style="text-align: left; font-size: 14px; font-weight: 400; font-family: Quicksand, Tahoma;"> Regards, </div>
+                <div>
+                    <img src="https://user-images.githubusercontent.com/43309131/128964221-f4d1096f-10ce-4b48-bc14-b40a3e8f5363.png?fbclid=IwAR3Cyl7xoluA26dh6TWVizeR34Dbtd0iDyU0wAtrfVjrZvEQdNI17gvH8O4"
+                        alt="company logo" style="height: 18vh; margin: 1vw; padding-right: 1vw;">
+                </div>
+                <hr style="border-top: solid #00000060; width: 80%;"></hr>
+                <br></br>
+                <form role="form" method="POST" action="http://127.0.0.1:5000/post-feedback">
+                    <div name="questions" style="font-size: 1vw;">
+                        <div>
+                            <label for="overall" style="font-size: 12px; font-weight: 600; font-family: Quicksand, Tahoma;">How would you rate your overall experience with us? </label>
+                            <span style="color: red; font-size: 12px;vertical-align: middle;font-family: Quicksand, Tahoma;margin-right: 1vw;margin-bottom: 0.5vw;">*</span>
+
+                            <select name="overall" style="text-align: center; padding: 0.5vw;font-family: Quicksand, Tahoma;">
+                                <option value="" selected disabled hidden>--Please select option--</option>
+                                <option value="5">5 - Extremely satisfied</option>
+                                <option value="4">4</option>
+                                <option value="3">3</option>
+                                <option value="2">2</option>
+                                <option value="1">1 - Extremely dissatisfied</option>
+                            </select>
+                        </div>
+                        <br></br>
+                        <div>
+                            <div>
+                                <label for="c" style="font-size: 12px; font-weight: 600">Overall Feedback Comments:</label>
+                                <textarea type="textarea" name="comments" placeholder="Enter text here" maxlength="9000" rows="5" cols="100" style="padding: 0.5vw; font-family: Quicksand, Tahoma; vertical-align:text-top; width:80%"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <br></br>
+                        <div>
+                            <button type="submit" style="font-size: 12px; font-weight: 400;border-radius: 1vh; background-color: #00000015; box-shadow: 0.2vh 0.2vh #00000020; border: 0.1vh solid #808080; padding: 10px 20px 10px 20px">Submit</button>
+                        </div>
+                    </div>
+                    <br></br>
+
+                </form>
+            </div>
+            <br></br>
+
+            <div style="text-align: center;">
+                <img alt="rev-you logo" src="https://user-images.githubusercontent.com/43309131/128867634-0dc39bbf-6116-4117-9234-7fdbede48098.png?fbclid=IwAR3SeEk2EFz2pqEEmIpYQSCsrLajmLrHP6x2IrxieYltekQJfW0lIy8rMJM"
+                    style="height: 4vw"></img>
+                <span style="font-family: Quicksand, Tahoma; vertical-align: middle; padding: 0.5vw">
+                    <span style="font-size:8px"> This form was generated by Rev-you on behalf of Trust Us Plumbing Technicians. </span>
+                    <span style="padding-left: 0.5vw; font-size:8px; text-decoration: underline; color: blue"> Terms and Conditions </span>
+                    <span style="padding-left: 0.5vw; font-size:8px; text-decoration: underline; color: blue"> Privacy Policy </span>
+                    <span style="padding-left: 0.5vw; font-size:8px; text-decoration: underline; color: blue"> Visit Rev-you Website </span>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+.app {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-image: linear-gradient(to bottom right, #315bf9, #3bfaee75);
+}

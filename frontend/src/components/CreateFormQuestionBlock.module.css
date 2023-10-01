@@ -1,0 +1,32 @@
+.labelContainer {
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.label {
+  width: 10vw;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}
+
+.inputField {
+  padding-left: 1vw;
+  margin-right: 0.8vw;
+  border: none;
+  border-radius: 0.5vw;
+  flex: 1;
+  background-color: #80808040;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}
+
+.dropDown {
+  flex: 1;
+  padding-left: 0.8vw;
+  margin-right: 0.8vw;
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #80808040;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}

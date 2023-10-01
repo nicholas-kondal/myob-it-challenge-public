@@ -1,0 +1,110 @@
+.popUp {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  max-width: 40vw;
+  max-height: 70vh;
+  padding: 2vw;
+  background-color: #fff;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 1vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+}
+
+.formWrapper {
+  display: flex;
+  height: 100vh;
+  padding-right: 1vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+
+.titleContainer {
+  /* for form title*/
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vh;
+}
+
+.labelContainer {
+  display: flex;
+  margin-bottom: 1vh;
+}
+
+.buttonContainer {
+  /*for submit/cancel buttons */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons {
+  border: none;
+  border-radius: 0.8vw;
+  padding: 0.8vw;
+  margin-right: 1vw;
+  background-image: linear-gradient(to bottom right, #315bf9, #3bfaee75);
+  filter: drop-shadow(2px 2px 2px #00000060);
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+  font-weight: 450;
+}
+
+.buttons:hover {
+  background-image: linear-gradient(to bottom right, #315bf9, #3bfaee);
+  cursor: pointer;
+}
+
+.label {
+  width: 10vw;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}
+
+.inputField {
+  padding-left: 1vw;
+  margin-right: 0.8vw;
+  border: none;
+  border-radius: 0.5vw;
+  flex: 1;
+  background-color: #80808040;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}
+
+.dropDown {
+  flex: 1;
+  padding-left: 0.8vw;
+  margin-right: 0.8vw;
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #80808040;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1vw;
+}
+
+/*divider container*/
+.editDivider {
+  display: flex;
+  width: 100%;
+  padding-top: 1vh;
+}
+
+.hr {
+  height: 0;
+  width: 35vw;
+  margin-top: 2.5vh;
+}
+
+.editButtons {
+  display: flex;
+}
+
+.editButtonsRemove {
+  display: flex;
+  justify-content: right;
+}

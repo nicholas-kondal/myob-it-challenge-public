@@ -1,0 +1,150 @@
+  .companyName {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-style: quicksand;
+    font-size: 4vh;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  .summaryContainer{
+    height: 80vh;
+    margin-bottom: 20px;
+    margin-left: 2vw;
+    padding-right: 4vw;
+    overflow-y: auto;
+    overflow-x: hidden;   
+  }
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3vh;
+  margin-right: 1vw;
+}
+
+.title {
+    font-family: quicksand;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.labelvalue1 {
+    font-family: quicksand;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 8vh; 
+ }
+
+ .labelvalue2 {
+  font-family: quicksand;
+  display: flex;
+  align-items: center;
+  line-height: 8vh; 
+}
+
+.label {
+    font-family: quicksand;
+    font-size: 1.5vw;
+    font-weight: 500;
+    align-items: center;
+  }
+
+.values1 {
+    font-size: 5vw;
+    font-weight: 600;
+  }
+
+.values2 {
+    font-size: 1.5vw;
+    font-weight: 600;  
+    word-break: break-all;
+    margin-left: 1vw;
+  }
+  
+/* BOXES */
+.overallStars {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 1;
+}
+
+.prod123 {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 1;
+}
+
+.doingWell {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 3;
+}
+
+.count {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 1;
+}
+
+.feedback {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 6;
+}
+
+.logo {
+  background-color: white;
+  outline-color: #808080;
+  outline-width: 0.25px;
+  border-radius: 2.5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin-left: 2vw;
+  filter: drop-shadow(4px 4px 4px #00000060);
+  flex-grow: 1;
+  max-width: 14vw;
+}
